@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio Rafael Valeneciano | by Qiokode</title>
+        <link rel="shortcut icon" href="/assets/FaviconQio.png" type="image/png">
+    </head>
+    <body>
+        <header class="header">
+            <!--Logo qiokode movil-->
+            <a href="#Home" class="header__logo">
+                <img src="assets/img/navbar_logo-qio.svg" alt="Logo Qiokode" class="logo-img">
+            </a>
+
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+    
+                    <div class="nav__perfil">
+                        <div class="nav__container">
+                            <a href="#Home" class="nav__logo-link">
+                                <img src="/assets/img/navbar_logo-qio.svg" alt="Logo Qiokode" class="nav__logo-img">
+                            </a>
+                                <span class="nav__subtitle">
+                                    by Rafael Valenciano<br>
+                                    Productor Multimedia
+                                </span>
+                        </div>
+                    </div>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#Home" class="nav__link active">Home</a></li>
+                            <li class="nav__item"><a href="#About" class="nav__link">About</a></li>
+                            <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
+                            <li class="nav__item"><a href="#Portfolio" class="nav__link">Portfolio</a></li>
+                            <li class="nav__item"><a href="#Contact" class="nav__link">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="nav__social">
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--SECCIONES-->
+        <main>
+            <section id="Home" class="section">
+                <div class="sub-name">By Qiokode</div>
+                <div class="autor-name">RAFAEL<br>VALENCIANO</div>
+                <div class="work-position">Productor Multimedia</div>
+                <div class="position-descrip">Especialista en edición de video, diseño grafico, experiencia UX/UI</div>
+                <!-- Botón para ir al portfolio -->
+                <a href="#Portfolio" class="btn-scroll">Ver Portfolio</a>
+            </section>
+            <section id="intro-video" class="video-section">
+                <video autoplay muted loop playinline class="video-responsive">
+                    <source src="/assets/video/color-video.mp4" type="video/mp4">
+                    Tu navegador no soporta HTML5. Actualizalo
+                </video>
+            </section>
+
+            <section id="About" class="section">
+                <img src="" alt="">
+                <img src="/assets/img/about/edit-video-skills.jpeg" alt="">
+                <video autoplay muted loop class="video-graphics">
+                    <source src="/assets/video/0_Running_Athlete_3840x2160.mp4">
+                </video>
+                <img src="/assets/img/about/social-media-skills.png" alt="">
+            </section>
+
+            <section id="Skills" class="section">
+                <div>Edicion de video</div>
+                <div>Animacion de graficos</div>
+                <div>Diseño de marcas</div>
+                <div>Realizacion Audiovisual y retoque con IA</div>
+            </section>
+
+            <section id="Portfolio" class="section">
+                <div>Trabajo #1</div>
+                <div>Trabajo #2</div>
+                <div>Trabajo #4</div>
+                <div>Descripción</div>
+            </section>
+
+            <section id="Contact" class="section">
+                <h4>FORMULARIO DE ENVIO</h4>
+            </section>
+        </main>
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
